@@ -1,0 +1,10 @@
+{
+  "realm": "wealth-tech",
+  "auth-server-url": "https://iam-admin-preprod.infosel-digitalfactory.com/auth/",
+  "ssl-required": "external",
+  "resource": "wealth-tech-app",
+  "public-client": true,
+  "verify-token-audience": true,
+  "use-resource-role-mappings": true,
+  "confidential-port": 0
+}
