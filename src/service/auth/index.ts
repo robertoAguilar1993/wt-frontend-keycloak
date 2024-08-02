@@ -15,7 +15,7 @@ const initKeycloak = (onAuthenticatedCallback: any) => {
     .init({
       checkLoginIframe: false,
       onLoad: "login-required",
-      // silentCheckSsoRedirectUri: window.location.origin + "/",
+      silentCheckSsoRedirectUri: window.location.origin,
       pkceMethod: "S256",
     })
     .then((authenticated) => {

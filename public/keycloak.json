@@ -1,6 +1,6 @@
 {
   "realm": "wealth-tech",
-  "auth-server-url": "https://iam-admin-preprod.infosel-digitalfactory.com/auth/",
+  "auth-server-url": "https://iam-admin-qa.infosel-digitalfactory.com/auth/",
   "ssl-required": "external",
   "resource": "wealth-tech-app",
   "public-client": true,
